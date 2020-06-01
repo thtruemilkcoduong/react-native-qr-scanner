@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package_json["license"]
   s.author         = { package_json["author"] => package_json["author"] }
   s.platform       = :ios, "9.0"
-  s.source         = { :git => "https://github.com/shifeng1993/react-native-qr-scanner.git" }
+  s.source         = { :git => "https://github.com/thtruemilkcoduong/react-native-qr-scanner.git" }
   s.source_files   = 'ios/QrCode/*.{h,m}'
 
   s.dependency 'React'
